@@ -1,8 +1,8 @@
 # 📏 Mile-to-Kilometer Converter (GUI)  
 
-The **Mile-to-Kilometer Converter (GUI)** is a compact yet impactful desktop application designed using Python’s **Tkinter library**. At its core, the project demonstrates how **mathematical operations, user-driven input, and real-time feedback** can be seamlessly combined into a functional graphical interface.  
+The **Mile-to-Kilometer Converter (GUI)** is a compact yet impactful desktop application designed using Python’s **Tkinter library**. At its core, the project demonstrates how **mathematical operations, user driven input, and real time feedback** can be seamlessly combined into a functional graphical interface.  
 
-This application was developed as part of my journey to strengthen **fundamental programming skills**, while simultaneously gaining practical exposure to **event-driven GUI development** in Python. Beyond being a simple converter, the project serves as a **didactic model** that illustrates how concise logic, clean code structure, and human-centered design principles can converge to create efficient digital tools.  
+This application was developed as part of my journey to strengthen **fundamental programming skills**, while simultaneously gaining practical exposure to **event driven GUI development** in Python. Beyond being a simple converter, the project serves as a **didactic model** that illustrates how concise logic, clean code structure, and human centered design principles can converge to create efficient digital tools.  
 
 Its relevance extends beyond the utility itself—it highlights an **engineering mindset**, transforming raw numbers into a smooth, interactive, and reusable solution. By engaging with this project, one witnesses how even **introductory applications** can embody strong programming practices that scale into larger, more complex systems.  
 
@@ -14,7 +14,7 @@ The **Mile-to-Kilometer Converter** exemplifies how software can transform **abs
 
 Key aspects of this implementation include:  
 - **Minimal Cognitive Load** – The interface is intentionally simple, with clearly labeled input fields and outputs that make the application intuitive for users of all technical levels.  
-- **Precision-Oriented Logic** – By leveraging Python’s floating-point arithmetic, the application accepts both whole numbers and decimals, ensuring precise conversions for real-world use cases.  
+- **Precision Oriented Logic** – By leveraging Python’s floating-point arithmetic, the application accepts both whole numbers and decimals, ensuring precise conversions for real-world use cases.  
 - **Rapid Responsiveness** – Each interaction (input + button press) produces immediate, error-free results, thereby reinforcing a sense of interactivity and reliability.  
 - **Practical Scalability** – While the scope is limited to miles-to-kilometers, the architecture makes it straightforward to extend into other unit conversions (e.g., temperature, weight, or currency).  
 
@@ -34,10 +34,8 @@ This project leverages a combination of **Pythonic constructs** and **GUI progra
 - **Event-Driven Architecture** – Instead of executing sequentially, the application responds to **user events** (such as button clicks), making it highly interactive.  
 - **Functional Abstraction** – The conversion logic is encapsulated within the `miles_to_km()` function, adhering to modular design and promoting code reusability.  
 - **Mathematical Transformation** – Implements the universally recognized formula:  
-  \[
-  \text{Kilometers} = \text{Miles} \times 1.609
-  \]  
-  ensuring accuracy through floating-point calculations.  
+`Kilometers = Miles × 1.609`  
+ensuring accuracy through floating-point calculations.  
 - **UI/UX Considerations** – Labels and spacing (`padx`, `pady`) are applied to enhance clarity, readability, and visual balance.  
 - **Error Prevention by Design** – Input validation is inherently enforced by expecting numeric values, minimizing potential user-side errors.  
 
@@ -57,7 +55,7 @@ Although this application is not a "game" in the traditional sense, its executio
    - The program invokes the `miles_to_km()` function once the "Calculate" button is pressed.  
    - The raw input is processed through the **conversion formula**:  
      \[
-     km = miles \times 1.609
+     km = miles \ times 1.609
      \]  
    - The result is rounded using Python’s `round()` function to enhance readability without sacrificing accuracy.  
 
@@ -173,9 +171,11 @@ Users can **continue entering new values** and press **Calculate** repeatedly wi
 
 > ⚡ This reflects the program’s **event-driven loop design**, enabling continuous interaction.  
 
-![📸 Example Screenshot – Multiple Conversions pic1](multiple_conversions1.png)
-![📸 Example Screenshot – Multiple Conversions pic2](multiple_conversions2.png)
-![📸 Example Screenshot – Multiple Conversions pic3](multiple_conversions3.png)
+![📸 Example Screenshot – Multiple Conversions pic1](multiple_conversions1.png)  
+
+![📸 Example Screenshot – Multiple Conversions pic2](multiple_conversions2.png)  
+
+![📸 Example Screenshot – Multiple Conversions pic3](multiple_conversions3.png)  
 
 ---
 
