@@ -10,15 +10,15 @@ Its relevance extends beyond the utility itself—it highlights an **engineering
 
 ## 🔎 Overview  
 
-The **Mile-to-Kilometer Converter** exemplifies how software can transform **abstract mathematical formulas** into **practical real-world solutions** through graphical interactivity. The user is not required to remember formulas or manually calculate—rather, the conversion process is automated and optimized within a clean, minimalist GUI.  
+The **Mile-to-Kilometer Converter** exemplifies how software can transform **abstract mathematical formulas** into **practical real world solutions** through graphical interactivity. The user is not required to remember formulas or manually calculate—rather, the conversion process is automated and optimized within a clean, minimalist GUI.  
 
 Key aspects of this implementation include:  
 - **Minimal Cognitive Load** – The interface is intentionally simple, with clearly labeled input fields and outputs that make the application intuitive for users of all technical levels.  
-- **Precision Oriented Logic** – By leveraging Python’s floating-point arithmetic, the application accepts both whole numbers and decimals, ensuring precise conversions for real-world use cases.  
-- **Rapid Responsiveness** – Each interaction (input + button press) produces immediate, error-free results, thereby reinforcing a sense of interactivity and reliability.  
+- **Precision Oriented Logic** – By leveraging Python’s floating point arithmetic, the application accepts both whole numbers and decimals, ensuring precise conversions for real world use cases.  
+- **Rapid Responsiveness** – Each interaction (input + button press) produces immediate, error free results, thereby reinforcing a sense of interactivity and reliability.  
 - **Practical Scalability** – While the scope is limited to miles-to-kilometers, the architecture makes it straightforward to extend into other unit conversions (e.g., temperature, weight, or currency).  
 
-In short, the project is not just about converting distances—it’s about showcasing how **functional programming concepts** and **user interface design** can come together to provide **seamless user experiences**.  
+In short, the project is not just about converting distances. It’s about showcasing how **functional programming concepts** and **user interface design** can come together to provide **seamless user experiences**.  
 
 ---
 
