@@ -31,15 +31,15 @@ This project leverages a combination of **Pythonic constructs** and **GUI progra
   - **Widget System**: Used for input fields (`Entry`), text display (`Label`), and triggers (`Button`).  
   - **Geometry Management**: The `grid()` system organizes the layout into intuitive rows and columns.  
   - **Event Loop Handling**: Tkinter’s internal mainloop ensures continuous listening for user events (typing, clicking).  
-- **Event-Driven Architecture** – Instead of executing sequentially, the application responds to **user events** (such as button clicks), making it highly interactive.  
+- **Event Driven Architecture** – Instead of executing sequentially, the application responds to **user events** (such as button clicks), making it highly interactive.  
 - **Functional Abstraction** – The conversion logic is encapsulated within the `miles_to_km()` function, adhering to modular design and promoting code reusability.  
 - **Mathematical Transformation** – Implements the universally recognized formula:  
 `Kilometers = Miles × 1.609`  
-ensuring accuracy through floating-point calculations.  
+ensuring accuracy through floating point calculations.  
 - **UI/UX Considerations** – Labels and spacing (`padx`, `pady`) are applied to enhance clarity, readability, and visual balance.  
-- **Error Prevention by Design** – Input validation is inherently enforced by expecting numeric values, minimizing potential user-side errors.  
+- **Error Prevention by Design** – Input validation is inherently enforced by expecting numeric values, minimizing potential user side errors.  
 
-> Collectively, these technologies and principles demonstrate a well-structured foundation for **desktop application development** while simultaneously reinforcing **problem-solving and design thinking** skills.  
+> Collectively, these technologies and principles demonstrate a well structured foundation for **desktop application development** while simultaneously reinforcing **problem solving and design thinking** skills.  
 
 ---
 
@@ -49,7 +49,7 @@ Although this application is not a "game" in the traditional sense, its executio
 
 1. **📝 Input Stage**  
    - The user enters a distance value (integer or float) into the entry field.  
-   - Tkinter captures this input as a string, which is later typecast into a floating-point number for precise computation.  
+   - Tkinter captures this input as a string, which is later typecast into a floating point number for precise computation.  
 
 2. **🔍 Processing Stage (Logic Engine)**  
    - The program invokes the `miles_to_km()` function once the "Calculate" button is pressed.  
